@@ -135,7 +135,7 @@ Resources:
         DBBackupRetentionPeriod: '30'
         DBMasterUsername: 'mastodon'
         DBMultiAZ: 'true'
-        EngineVersion: '14.5'
+        EngineVersion: '15.3'
       TemplateURL: './node_modules/@cfn-modules/rds-postgres/module.yml'
   Cluster:
     Type: 'AWS::CloudFormation::Stack'
